@@ -86,6 +86,6 @@ export const poetriesRouter = express.Router();
         }
     } catch (error: any) {
         console.error(error.message);
-        res.status(400).send(error.message);
+        res.status(400).send({res: 'error', error: error.message});
     }
   })

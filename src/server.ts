@@ -1,6 +1,5 @@
 import cors from "cors";
 import express, { Express } from "express";
-import Poetry from "./interface/poetry";
 import { poetriesRouter } from "./poetry.routes";
 import { connectToDatabase } from "./services/mongodb";
 

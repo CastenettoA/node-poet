@@ -1,7 +1,7 @@
 # Node/Express.js/MongoDb app to add and read poetry.
 Server che espone le API per visualizzare, aggiungere, modificare e cancellare poesie dall'applicazione Angular 'ng-poet'
 
-Backend Tech Stack
+Backend Tech Stack (current github project)
 * Nodejs, Express.js for developing of Api Endpoint
 * MongoDb as cloud document database
 
